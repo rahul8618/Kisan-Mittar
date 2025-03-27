@@ -9,7 +9,7 @@ logging.basicConfig(filename='kisanmitra.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Configure Gemini API with your API key
-genai.configure(api_key="AIzaSyDftbcdskA0nFkPpM3C-S-IPptEelVGTBk")  # Replace with your Gemini API key
+genai.configure(api_key="Gemini API Key ")  
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Simulated IoT and weather data for demonstration
